@@ -259,7 +259,7 @@ class Storm{
                 stormIcons.textSize(12);
             }
             stormIcons.textStyle(NORMAL);
-            stormIcons.text(tropOrSub(ty) ? scaleIconData.symbol : "L", 0, 0);
+            stormIcons.text(tropOrSub(ty) ? scaleIconData.symbol : "?", 0, 0);
             stormIcons.fill(0);
             if(simSettings.showStrength){
                 stormIcons.textSize(10);

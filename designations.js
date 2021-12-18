@@ -429,6 +429,18 @@ DesignationSystem.atlantic = new DesignationSystem({
     ]
 });
 
+DesignationSystem.terrasw = new DesignationSystem({
+    displayName: 'Terralockla SW Ocean',
+    suffix: 'SW',
+    annual: true,
+    mainLists: [
+        ['Arthur','Bertha','Chris','Devon','Evan','Flamboyan','Gordon','Harvey','Isaac','James','Kyliene','Lola','Marco','Nola','Omar','Paloma','Sally','Teddy','Vince','William'],
+    ],
+    auxLists: [
+        ['Alpha','Beta','Gamma','Delta','Epsilon','Zeta','Eta','Theta','Iota','Kappa','Lambda','Mu','Nu','Xi','Omicron','Pi','Rho','Sigma','Tau','Upsilon','Phi','Chi','Psi','Omega'],
+    ]
+});
+
 DesignationSystem.easternPacific = new DesignationSystem({
     displayName: 'Eastern Pacific',
     suffix: 'E',
