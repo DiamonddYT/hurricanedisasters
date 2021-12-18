@@ -1,6 +1,6 @@
 // ---- Simulation Modes ---- //
 
-const SIMULATION_MODES = ['Normal','Hyper','Wild','Megablobs','Experimental']; // Labels for sim mode selector UI
+const SIMULATION_MODES = ['Normal','2020','Insane','Global Warming','Experimental']; // Labels for sim mode selector UI
 const SIM_MODE_NORMAL = 0;
 const SIM_MODE_HYPER = 1;
 const SIM_MODE_WILD = 2;
@@ -100,67 +100,67 @@ SPAWN_RULES.defaults.archetypes = {
     's': {
         inherit: 'tc',
         pressure: 995,
-        windSpeed: 45
+        windSpeed: 39
     },
     'S': {
         inherit: 'stc',
         pressure: 995,
-        windSpeed: 45
+        windSpeed: 39
     },
     '1': {
         inherit: 'tc',
         pressure: 985,
-        windSpeed: 70
+        windSpeed: 74
     },
     '2': {
         inherit: 'tc',
         pressure: 975,
-        windSpeed: 90
+        windSpeed: 96
     },
     '3': {
         inherit: 'tc',
         pressure: 960,
-        windSpeed: 105
+        windSpeed: 111
     },
     '4': {
         inherit: 'tc',
         pressure: 945,
-        windSpeed: 125
+        windSpeed: 129
     },
     '5': {
         inherit: 'tc',
         pressure: 925,
-        windSpeed: 145
+        windSpeed: 157
     },
     '6': {
         inherit: 'tc',
         pressure: 890,
-        windSpeed: 170
+        windSpeed: 200
     },
     '7': {
         inherit: 'tc',
         pressure: 840,
-        windSpeed: 210
+        windSpeed: 250
     },
     '8': {
         inherit: 'tc',
         pressure: 800,
-        windSpeed: 270
+        windSpeed: 360
     },
     '9': {
         inherit: 'tc',
         pressure: 765,
-        windSpeed: 330
+        windSpeed: 400
     },
     '0': {
         inherit: 'tc',
         pressure: 730,
-        windSpeed: 400
+        windSpeed: 500
     },
     'y': {
         inherit: 'tc',
         pressure: 690,
-        windSpeed: 440
+        windSpeed: 600
     }
 };
 

@@ -426,16 +426,16 @@ UI.init = function(){
         text(TITLE,0,0);
         textSize(18);
         textStyle(ITALIC);
-        text("Simulate your own monster storms!",0,40);
+        text("Simulate your own insane hurricanes!",0,40);
     });
 
     mainMenu.append(false,WIDTH/2-100,HEIGHT/2-20,200,40,function(s){    // "New Basin" button
-        s.button('New Basin',true,24);
+        s.button('New Map',true,24);
     },function(){
         mainMenu.hide();
         basinCreationMenu.show();
     }).append(false,0,60,200,40,function(s){     // load button
-        s.button('Load Basin',true,24);
+        s.button('Load Map',true,24);
     },function(){
         mainMenu.hide();
         loadMenu.show();
@@ -454,7 +454,7 @@ UI.init = function(){
         noStroke();
         textAlign(CENTER,CENTER);
         textSize(36);
-        text("New Basin Settings",0,0);
+        text("New Map Settings",0,0);
     });
 
     let basinCreationMenuButtonSpacing = 36;
@@ -959,7 +959,7 @@ UI.init = function(){
 
         // sub-basin selector
         let sb_selector = desigSystemEditor.append(false,WIDTH/2-section_width/2,HEIGHT/8,section_width,0,s=>{
-            let txt = 'Editing sub-basin: ';
+            let txt = 'Editing sub-map: ';
             let sb = UI.viewBasin.subBasins[editing_sub_basin];
             if(sb instanceof SubBasin)
                 txt += sb.getDisplayName();
@@ -2018,14 +2018,14 @@ UI.init = function(){
     },function(){
         areYouSure.dialog(returntomainmenu);
     }).append(false,0,30,sideMenu.width-10,25,function(s){   // Save basin button
-        let txt = "Save Basin";
+        let txt = "Save Map";
         if(UI.viewBasin.tick===UI.viewBasin.lastSaved) txt += " [Saved]";
         s.button(txt,false,15);
     },function(){
         if(UI.viewBasin.saveName===AUTOSAVE_SAVE_NAME) saveBasinAsPanel.invoke();
         else UI.viewBasin.save();
     }).append(false,0,30,sideMenu.width-10,25,function(s){   // Save basin as button
-        s.button("Save Basin As...",false,15);
+        s.button("Save Map As...",false,15);
     },function(){
         saveBasinAsPanel.invoke();
     }).append(false,0,30,sideMenu.width-10,25,function(s){   // Settings menu button
@@ -2042,7 +2042,7 @@ UI.init = function(){
         desigSystemEditor.show();
         paused = true;
     }).append(false,0,30,sideMenu.width-10,25,function(s){  // Basin seed button
-        s.button('Basin Seed',false,15);
+        s.button('Map Seed',false,15);
     },function(){
         seedBox.toggleShow();
         if(seedBox.showing) seedBox.clicked();
@@ -2055,7 +2055,7 @@ UI.init = function(){
         fill(COLORS.UI.text);
         textAlign(CENTER,TOP);
         textSize(18);
-        text("Save Basin As...",this.width/2,10);
+        text("Save Map As...",this.width/2,10);
         stroke(0);
         line(0,0,0,this.height);
     },true,false);
