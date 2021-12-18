@@ -1,5 +1,5 @@
-const TITLE = "Cyclone Simulator";
-const VERSION_NUMBER = "0.3.11";
+const TITLE = "Hurricane Disasters";
+const VERSION_NUMBER = "1104";
 
 const SAVE_FORMAT = 6;  // Format #6 in use starting in v0.2
 const EARLIEST_COMPATIBLE_FORMAT = 0;
@@ -170,7 +170,7 @@ const FORMAT_WITH_SCALES = 6;
 // Legacy saving/loading-related constants (backwards-compatibility)
 
 const LEGACY_SAVE_NAME_PREFIX = "Slot ";
-const LOCALSTORAGE_KEY_PREFIX = "cyclone-sim-";
+const LOCALSTORAGE_KEY_PREFIX = "hurr-disasters-";
 const LOCALSTORAGE_KEY_SAVEDBASIN = "savedbasin-";
 const LOCALSTORAGE_KEY_BASIN = "basin";
 const LOCALSTORAGE_KEY_FORMAT = "format";
