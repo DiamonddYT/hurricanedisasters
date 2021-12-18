@@ -412,7 +412,7 @@ class DesignationSystem{
 }
 
 DesignationSystem.atlantic = new DesignationSystem({
-    displayName: 'Atlantic',
+    displayName: 'Atlantic (with aux list)',
     suffix: 'L',
     annual: true,
     anchor: 1979,
@@ -422,7 +422,7 @@ DesignationSystem.atlantic = new DesignationSystem({
         ['Arlene','Bret','Cindy','Don','Emily','Franklin','Gert','Harold','Idalia','Jose','Katia','Lee','Margot','Nigel','Ophelia','Philippe','Rina','Sean','Tammy','Vince','Whitney'],
         ['Alberto','Beryl','Chris','Debby','Ernesto','Francine','Gordon','Helene','Isaac','Joyce','Kirk','Leslie','Milton','Nadine','Oscar','Patty','Rafael','Sara','Tony','Valerie','William'],
         ['Andrea','Barry','Chantal','Dexter','Erin','Fernand','Gabrielle','Humberto','Imelda','Jerry','Karen','Lorenzo','Melissa','Nestor','Olga','Pablo','Rebekah','Sebastien','Tanya','Van','Wendy'],
-        ['Arthur','Bertha','Cristobal','Dolly','Edouard','Fay','Gonzalo','Hanna','Isaias','Josephine','Kyle','Leah','Marco','Nana','Omar','Paulette','Rene','Sally','Teddy','Vicky','Wilfred']
+        ['Arthur','Bertha','Cristobal','Dolly','Edouard','Fay','Gonzalo','Hanna','Isaias','Josephine','Kyle','Laura','Marco','Nana','Omar','Paulette','Rene','Sally','Teddy','Vicky','Wilfred']
     ],
     auxLists: [
         ["Adria", "Braylen", "Caridad", "Deshawn", "Emery", "Foster", "Gemma", "Heath", "Isla", "Jacobus", "Kenzie", "Lucio", "Makayla", "Nolan", "Orlanda", "Pax", "Ronin", "Sophie", "Tayshaun", "Viviana", "Will"]
@@ -582,7 +582,7 @@ DesignationSystem.southAtlantic = new DesignationSystem({
 });
 
 DesignationSystem.atlantic1979 = new DesignationSystem({
-    displayName: 'Atlantic (1979-1984)',
+    displayName: 'Atlantic',
     suffix: 'L',
     annual: true,
     anchor: 1979,
