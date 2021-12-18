@@ -247,7 +247,7 @@ Scale.saffirSimpson = new Scale({
         {
             threshold: 34,
             color: ['rgb(20,230,20)','#00faf4'],
-            subtropicalColor: ['rgb(60,220,60)','#00faf4'],
+            subtropicalColor: ['rgb(0,255,170)','#00ffaa'],
             symbol: 'TS',
             stormNom: 'Tropical Storm',
             subtropicalStormNom: 'Subtropical Storm',
@@ -319,7 +319,7 @@ Scale.extendedSaffirSimpson = new Scale({
         {
             threshold: 34,
             color: ['rgb(20,230,20)','#00faf4'],
-            subtropicalColor: ['rgb(60,220,60)','#00faf4'],
+            subtropicalColor: ['rgb(0,255,170)', '#00ffaa'],
             symbol: 'TS',
             stormNom: 'Tropical Storm',
             subtropicalStormNom: 'Subtropical Storm',
