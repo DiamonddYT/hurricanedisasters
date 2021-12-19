@@ -243,7 +243,7 @@ class Storm{
                 stormIcons.stroke(255);
                 if(ty===EXTROP){
                     stormIcons.textSize(18);
-                    stormIcons.text("L",0,0);
+                    stormIcons.text("EX",0,0);
                 }else stormIcons.ellipse(0,0,DIAMETER);
                 drawArms();
             }
@@ -259,7 +259,7 @@ class Storm{
                 stormIcons.textSize(12);
             }
             stormIcons.textStyle(NORMAL);
-            stormIcons.text(tropOrSub(ty) ? scaleIconData.symbol : "?", 0, 0);
+            stormIcons.text(tropOrSub(ty) ? scaleIconData.symbol : "EX", 0, 0);
             stormIcons.fill(0);
             if(simSettings.showStrength){
                 stormIcons.textSize(10);
