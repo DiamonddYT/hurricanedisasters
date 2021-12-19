@@ -1046,7 +1046,6 @@ STORM_ALGORITHM[SIM_MODE_EXPERIMENTAL].upgrade = function(sys,data,oldVersion){
         sys.organization = data.organization;
         sys.lowerWarmCore = data.lowerWarmCore;
         sys.upperWarmCore = data.upperWarmCore;
-        sys.depth = data.depth;
         sys.kaboom = 0;
     }
 };
