@@ -104,7 +104,7 @@ class Scale{
         };
         if(subtropical){
             if(clsn.subtropicalSymbol) symbol = fetch(clsn.subtropicalSymbol);
-            else symbol = 'S' + fetch(clsn.symbol);
+            else symbol = 'T' + fetch(clsn.symbol);
         }else symbol = fetch(clsn.symbol);
         let arms = clsn.arms;
         return {symbol, arms, color};
@@ -237,7 +237,7 @@ Scale.saffirSimpson = new Scale({
             threshold: 0,
             color: ['rgb(20,20,230)','#5ebaff'],
             subtropicalColor: ['rgb(60,60,220)','#5ebaff'],
-            symbol: 'TD',
+            symbol: 'D',
             arms: 0,
             stormNom: 'Tropical Depression',
             subtropicalStormNom: 'Subtropical Depression',
@@ -248,7 +248,7 @@ Scale.saffirSimpson = new Scale({
             threshold: 34,
             color: ['rgb(20,230,20)','#00faf4'],
             subtropicalColor: ['rgb(0,255,170)','#00ffaa'],
-            symbol: 'TS',
+            symbol: 'S',
             stormNom: 'Tropical Storm',
             subtropicalStormNom: 'Subtropical Storm',
             stat: 'Named Storms',
