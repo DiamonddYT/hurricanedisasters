@@ -103,7 +103,7 @@ const MAP_TYPES = [     // Land generation controls for different map types
         special: 'AUS'
     },
     {   // "Terralockla SW Ocean" map type
-        form: 'linear',
+        form: 'radial',
         path: 'resources/TSWO.png',
     },
     {   // "South Pacific" map type
