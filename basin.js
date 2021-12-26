@@ -146,7 +146,8 @@ class Basin{
         if(t===undefined) t = this.tick;
         return moment.utc(this.startTime()+t*TICK_DURATION);
     }
-    
+    if(_month(10) && (curTime.date() === 15); var audio = new Audio('insummary.wav');
+audio.play();
     tickFromMoment(m){
         if(m instanceof moment) return floor((m.valueOf()-this.startTime())/TICK_DURATION);
     }
