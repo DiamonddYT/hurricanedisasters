@@ -1,4 +1,4 @@
-const TITLE = "Hurricane Disasters";
+const TITLE = "Hurricane Disasters BETA";
 const VERSION_NUMBER = "1128.122621";
 
 const SAVE_FORMAT = 6;  // Format #6 in use starting in v0.2
