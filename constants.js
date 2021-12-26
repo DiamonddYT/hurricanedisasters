@@ -117,11 +117,11 @@ const MAP_TYPES = [     // Land generation controls for different map types
     {   // "Mediterranean" map type
         form: 'pixelmap',
         path: 'resources/Medi.png'
-    },
+    }
     {   // "Terralockla SW Ocean" map type
         form: 'pixelmap',
         path: 'resources/TSWO.png',
-    },
+    }
 ];
 const EXTROP = 0;
 const SUBTROP = 1;
