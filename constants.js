@@ -82,11 +82,6 @@ const MAP_TYPES = [     // Land generation controls for different map types
         form: 'pixelmap',
         path: 'resources/Atlantic.png'
     },
-    {   // "Terralockla SW Ocean" map type
-        form: 'pixelmap',
-        path: 'resources/TSWO.png',
-        special: 'TSWO'
-    },
     {   // "Eastern Pacific" map type
         form: 'pixelmap',
         path: 'resources/EasternPacific.png',
@@ -123,6 +118,11 @@ const MAP_TYPES = [     // Land generation controls for different map types
         form: 'pixelmap',
         path: 'resources/Medi.png'
     }
+    {   // "Terralockla SW Ocean" map type
+        form: 'pixelmap',
+        path: 'resources/TSWO.png',
+        special: 'TSWO'
+    },
 ];
 const EXTROP = 0;
 const SUBTROP = 1;
