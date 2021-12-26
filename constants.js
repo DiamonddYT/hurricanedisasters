@@ -1,12 +1,12 @@
 const TITLE = "Hurricane Disasters";
-const VERSION_NUMBER = "1128";
+const VERSION_NUMBER = "1128.12.26.21";
 
 const SAVE_FORMAT = 6;  // Format #6 in use starting in v0.2
 const EARLIEST_COMPATIBLE_FORMAT = 0;
 const ENVDATA_COMPATIBLE_FORMAT = 0;
 
-const WIDTH = 960; // 16:9 aspect ratio
-const HEIGHT = 540;
+const WIDTH = 640; // 16:9 aspect ratio
+const HEIGHT = 480;
 const DIAMETER = 20;    // Storm icon diameter
 const PERLIN_ZOOM = 100;    // Resolution for perlin noise
 const TICK_DURATION = 3600000;  // How long in sim time does a tick last in milliseconds (1 hour)
@@ -187,16 +187,10 @@ const ENVDATA_SAVE_MULT = 10000;
 // const ACTIVESYSTEM_SAVE_FLOAT = -2;
 
 const HELP_TEXT = "Keyboard Controls:\n" +
-    "\t\tSPACE - Pause/resume simulation\n" +
-    "\t\tA - Step simulation one hour while paused\n" +
     "\t\tE - Cycle through map layers\n" +
     "\t\tT - Cycle through track display modes\n" +
     "\t\tW - Toggle intensity indicators below storm icons (kts / hPa)\n" +
     "\t\tM - Toggle magnifying glass for map layers\n" +
-    "\t\t[ - Decrease simulation speed (half)\n" +
-    "\t\t] - Increase simulation speed (double)\n" +
-    "\t\tLEFT ARROW - Step backwards through analysis\n" +
-    "\t\tRIGHT ARROW - Step forewards through analysis\n" +
     "\t\tCLICK + [special key] - Spawn [corresponding storm system]\n" +
     "\t\t\t\tX - Extratropical cyclone\n" +
     "\t\t\t\tL - Tropical Low/Wave\n" +

@@ -431,13 +431,49 @@ DesignationSystem.atlantic = new DesignationSystem({
 
 DesignationSystem.terrasw = new DesignationSystem({
     displayName: 'Terralockla SW Ocean',
-    suffix: 'SW',
+    suffix: 'S',
     annual: true,
     mainLists: [
         ['Arthur','Bertha','Chris','Devon','Evan','Flamboyan','Gordon','Harvey','Isaac','James','Kyliene','Lola','Marco','Nola','Omar','Paloma','Sally','Teddy','Vince','William'],
     ],
     auxLists: [
         ['Alpha','Beta','Gamma','Delta','Epsilon','Zeta','Eta','Theta','Iota','Kappa','Lambda','Mu','Nu','Xi','Omicron','Pi','Rho','Sigma','Tau','Upsilon','Phi','Chi','Psi','Omega'],
+    ]
+});
+
+DesignationSystem.terranw = new DesignationSystem({
+    displayName: 'Terralockla NW Ocean',
+    suffix: 'N',
+    annual: true,
+    mainLists: [
+        ['Yanyan', 'Berral', 'Shaimen', 'Ockgha', 'Mancko', 'Lozzalo', 'Saola', 'Omaki', 'Fengshen', 'Vamco', 'Vonglansi'],
+    ],
+    auxLists: [
+        ['Alpha', 'Beta', 'Gamma', 'Delta', 'Epsilon', 'Zeta', 'Eta', 'Theta', 'Iota', 'Kappa', 'Lambda', 'Mu', 'Nu', 'Xi', 'Omicron', 'Pi', 'Rho', 'Sigma', 'Tau', 'Upsilon', 'Phi', 'Chi', 'Psi', 'Omega'],
+    ]
+});
+
+DesignationSystem.terrapb = new DesignationSystem({
+    displayName: 'Terralockla Peak Bay',
+    suffix: 'B',
+    annual: true,
+    mainLists: [
+        ['Amillalo','Dwellib','Xnic','Lola','Senndil','Saola','Zegona','Moilue','Fendave','Ockra','Omicron'],
+    ],
+    auxLists: [
+        ['Alpha', 'Beta', 'Gamma', 'Delta', 'Epsilon', 'Zeta', 'Eta', 'Theta', 'Iota', 'Kappa', 'Lambda', 'Mu', 'Nu', 'Xi', 'Omicron', 'Pi', 'Rho', 'Sigma', 'Tau', 'Upsilon', 'Phi', 'Chi', 'Psi', 'Omega'],
+    ]
+});
+
+DesignationSystem.terraw = new DesignationSystem({
+    displayName: 'Terralockla West Ocean',
+    suffix: 'W',
+    annual: true,
+    mainLists: [
+        ['Ami', 'Berlin', 'Corva', 'Dalla', 'Ernesto', 'Fay', 'Geanne', 'Hortense', 'Isidore', 'Jackson', 'Kyle', 'Marine', 'Nathan', 'Odette', 'Patricia', 'Rafael', 'Sean', 'Tony', 'Vicky', 'Wilma'],
+    ],
+    auxLists: [
+        ['Alpha', 'Beta', 'Gamma', 'Delta', 'Epsilon', 'Zeta', 'Eta', 'Theta', 'Iota', 'Kappa', 'Lambda', 'Mu', 'Nu', 'Xi', 'Omicron', 'Pi', 'Rho', 'Sigma', 'Tau', 'Upsilon', 'Phi', 'Chi', 'Psi', 'Omega'],
     ]
 });
 
@@ -619,6 +655,14 @@ DesignationSystem.periodicTable = new DesignationSystem({
     ]
 });
 
+DesignationSystem.pre1950 = new DesignationSystem({
+    displayName: 'Pre-1950s Atlantic (words)',
+    suffix: '',
+    annual: true,
+    mainLists: [
+        ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen', 'Twenty', 'Twenty-One', 'Twenty-Two', 'Twenty-Three', 'Twenty-Four', 'Twenty-Five', 'Twenty-Six', 'Twenty-Seven', 'Twenty-Eight', 'Twenty-Nine', 'Thirty', 'Thirty-One', 'Thirty-Two', 'Thirty-Three', 'Thirty-Four', 'Thirty-Five', 'Thirty-Six', 'Thirty-Seven', 'Thirty-Eight', 'Thirty-Nine', 'Fourty', 'Fourty-One', 'Fourty-Two', 'Fourty-Three', 'Fourty-Four', 'Fourty-Five', 'Fourty-Six', 'Fourty-Seven', 'Fourty-Eight', 'Fourty-Nine', 'Fifty', 'Fifty-One', 'Fifty-Two', 'Fifty-Three', 'Fifty-Four', 'Fifty-Five', 'Fifty-Six', 'Fifty-Seven', 'Fifty-Eight', 'Fifty-Nine', 'Sixty', 'Sixty-One', 'Sixty-Two', 'Sixty-Three', 'Sixty-Four', 'Sixty-Five', 'Sixty-Six', 'Sixty-Seven', 'Sixty-Eight', 'Sixty-Nine', 'Seventy', 'Seventy-One', 'Seventy-Two', 'Seventy-Three', 'Seventy-Four', 'Seventy-Five', 'Seventy-Six', 'Seventy-Seven', 'Seventy-Eight', 'Seventy-Nine', 'Eighty', 'Eighty-One', 'Eighty-Two', 'Eighty-Three', 'Eighty-Four', 'Eighty-Five', 'Eighty-Six', 'Eighty-Seven', 'Eighty-Eight', 'Eighty-Nine', 'Ninety', 'Ninety-One', 'Ninety-Two', 'Ninety-Three', 'Ninety-Four', 'Ninety-Five', 'Ninety-Six', 'Ninety-Seven', 'Ninety-Eight', 'Ninety-Nine', 'One-Hundred']
+});
+
 DesignationSystem.periodicTableAnnual = DesignationSystem.periodicTable.clone();
 DesignationSystem.periodicTableAnnual.naming.annual = true;
 DesignationSystem.periodicTableAnnual.displayName = 'Periodic Table (Annual)';
@@ -626,6 +670,9 @@ DesignationSystem.periodicTableAnnual.displayName = 'Periodic Table (Annual)';
 DesignationSystem.presetDesignationSystems = [
     DesignationSystem.atlantic,
     DesignationSystem.terrasw,
+    DesignationSystem.terranw,
+    DesignationSystem.terrapb,
+    DesignationSystem.terraw,
     DesignationSystem.easternPacific,
     DesignationSystem.centralPacific,
     DesignationSystem.westernPacific,
@@ -639,5 +686,6 @@ DesignationSystem.presetDesignationSystems = [
     DesignationSystem.australianRegionPortMoresby,
     DesignationSystem.atlantic1979,
     DesignationSystem.periodicTable,
+    DesignationSystem.pre1950,
     DesignationSystem.periodicTableAnnual
 ];

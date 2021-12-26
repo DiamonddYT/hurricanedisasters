@@ -256,7 +256,7 @@ Scale.saffirSimpson = new Scale({
         },
         {
             threshold: 64,
-            color: ['rgb(230,230,20)','#ffffcc'],
+            color: ['rgb(251,255,0)','#fbff00'],
             symbol: '1',
             stormNom: ['Hurricane','Typhoon','Cyclone'],
             stat: ['Hurricanes','Typhoons','Cyclones'],
@@ -292,7 +292,7 @@ Scale.saffirSimpson = new Scale({
         },
         {
             threshold: 137,
-            color: ['rgb(250,140,250)','#ff6060'],
+            color: ['rgb(255, 0, 149)','#ff0095'],
             symbol: '5',
             stat: 'Category 5s',
             cName: 'Category 5'
