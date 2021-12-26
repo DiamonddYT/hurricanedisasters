@@ -1,1 +1,5 @@
 Build 1004 - changed branding
+
+Build 1121 - Added the Terralockla SW Ocean Naming list and Map. Also changed some of the icons.
+
+Build 1128 - Finished the Terralockla SW Ocean Map, and implemented a few more naming lists.
