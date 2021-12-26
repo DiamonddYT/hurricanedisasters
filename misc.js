@@ -235,7 +235,6 @@ function upgradeLegacySaves(){
     });
 }
 
-if 
 document.onfullscreenchange = function(){
     if(document.fullscreenElement===null){
         scaler = 1;
